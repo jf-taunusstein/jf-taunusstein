@@ -9,7 +9,13 @@ import { Header } from "~/src/components/header/header";
 import { Split } from "~/src/components/split/split";
 import { Typography } from "~/src/components/typography/typography";
 
+import {
+  Footer,
+  FooterSection,
+  FooterSectionTitle,
+} from "../components/footer/footer";
 import { LinkBox } from "../components/link-box/link-box";
+import { SkewBackground } from "../components/skew-background/skew-background";
 import { jugendwarte } from "../data/jugendwarte";
 import { team } from "../data/team";
 import { uebungszeiten } from "../data/uebungszeiten";
@@ -118,7 +124,10 @@ export default function JugendfeuerwehrIndex() {
         </Split>
       </div>
 
-      <div className="relative z-[1] my-14 -mx-12 space-y-8 bg-jugend p-12 pt-4 text-white after:absolute after:-inset-1 after:-top-4 after:-z-[1] after:h-full after:w-[110%] after:skew-y-[1.5deg] after:bg-jugend">
+      <SkewBackground
+        direction="left"
+        className="my-14 bg-jugend p-12 pt-4 text-white after:bg-jugend"
+      >
         <div className="space-y-4">
           <Typography component="h2" size="h1">
             Übungszeiten
@@ -138,7 +147,7 @@ export default function JugendfeuerwehrIndex() {
             </div>
           ))}
         </div>
-      </div>
+      </SkewBackground>
 
       <div className="space-y-12">
         <div className="space-y-6">
@@ -195,40 +204,36 @@ export default function JugendfeuerwehrIndex() {
         </div>
       </div>
 
-      <div className="relative z-[1] -mx-12 mt-14 grid grid-cols-1 gap-6 bg-jugend p-12 text-white after:absolute after:-inset-1 after:-top-5 after:-z-[1] after:h-full after:w-[110%] after:-skew-y-[1.5deg] after:bg-jugend sm:grid-cols-2 md:grid-cols-3">
-        <div className="space-y-4">
-          <Typography className="font-bold uppercase" size="small">
-            Kontakt
-          </Typography>
-          <p>
-            Stadtjugendfeuerwehrwart <br />
-            Name Nachname <br />
-            Straße Hausnummer <br />
-            Postleitzahl Stadt <br />
-            Tel: Telefonnummer
-          </p>
-        </div>
+      <SkewBackground className="mt-20 bg-jugend text-white after:bg-jugend">
+        <Footer>
+          <FooterSection>
+            <FooterSectionTitle>Kontakt</FooterSectionTitle>
+            <p>
+              Stadtjugendfeuerwehrwart <br />
+              Name Nachname <br />
+              Straße Hausnummer <br />
+              Postleitzahl Stadt <br />
+              Tel: Telefonnummer
+            </p>
+          </FooterSection>
 
-        <div className="space-y-4">
-          <Typography className="font-bold uppercase" size="small">
-            Folge uns
-          </Typography>
-        </div>
+          <FooterSection>
+            <FooterSectionTitle>Folge uns</FooterSectionTitle>
+          </FooterSection>
 
-        <div className="space-y-4">
-          <Typography className="font-bold uppercase" size="small">
-            Informationen
-          </Typography>
-          <ul className="space-y-2">
-            <li>
-              <Link href="#">Impressum</Link>
-            </li>
-            <li>
-              <Link href="#">Datenschutz</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
+          <FooterSection>
+            <FooterSectionTitle>Informationen</FooterSectionTitle>
+            <ul className="space-y-2">
+              <li>
+                <Link href="#">Impressum</Link>
+              </li>
+              <li>
+                <Link href="#">Datenschutz</Link>
+              </li>
+            </ul>
+          </FooterSection>
+        </Footer>
+      </SkewBackground>
     </>
   );
 }
