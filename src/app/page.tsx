@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Facebook, Instagram } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -208,6 +208,22 @@ export default function JugendfeuerwehrIndex() {
 
           <FooterSection>
             <FooterSectionTitle>Folge uns</FooterSectionTitle>
+            <ul className="flex space-x-4">
+              <a
+                href="https://www.facebook.com/jftaunusstein"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Facebook className="h-6 w-6" />
+              </a>
+              <a
+                href="https://www.instagram.com/jugendfeuerwehrtaunusstein/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Instagram className="h-6 w-6" />
+              </a>
+            </ul>
           </FooterSection>
 
           <FooterSection>
