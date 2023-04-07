@@ -128,7 +128,7 @@ export default function JugendfeuerwehrIndex() {
         direction="left"
         className="my-14 space-y-12 bg-jugend p-12 pt-4 text-white after:bg-jugend"
       >
-        <div className="space-y-4">
+        <div className="space-y-2">
           <Typography component="h2" size="h1">
             Übungszeiten
           </Typography>
@@ -149,9 +149,9 @@ export default function JugendfeuerwehrIndex() {
         </div>
       </SkewBackground>
 
-      <div className="space-y-12">
-        <div className="space-y-6">
-          <div className="space-y-4">
+      <div className="space-y-16">
+        <div className="space-y-10">
+          <div className="space-y-2">
             <Typography component="h2" size="h1" className="text-jugend">
               Das Team
             </Typography>
@@ -175,8 +175,8 @@ export default function JugendfeuerwehrIndex() {
           </div>
         </div>
 
-        <div className="space-y-6">
-          <div className="space-y-4">
+        <div className="space-y-10">
+          <div className="space-y-2">
             <Typography component="h2" size="h2" className="text-jugend">
               Die Jugendwarte
             </Typography>
