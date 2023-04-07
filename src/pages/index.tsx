@@ -16,6 +16,7 @@ import {
 } from "../components/footer/footer";
 import { LinkBox } from "../components/link-box/link-box";
 import { SkewBackground } from "../components/skew-background/skew-background";
+import { TeamMember } from "../components/team-member/team-member";
 import { jugendwarte } from "../data/jugendwarte";
 import { team } from "../data/team";
 import { uebungszeiten } from "../data/uebungszeiten";
@@ -159,18 +160,14 @@ export default function JugendfeuerwehrIndex() {
           </div>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-            {team.map((member, index) => (
-              <div key={member.name + index} className="text-center">
-                <Image
-                  src={member.image}
-                  alt={member.name}
-                  className="mx-auto mb-2 h-36 w-36 rounded-full"
-                />
-                <Typography size="small" className="font-bold">
-                  {member.name}
-                </Typography>
-                <Typography size="small">{member.position}</Typography>
-              </div>
+            {team.map((member) => (
+              <TeamMember
+                key={member.name}
+                name={member.name}
+                image={member.image}
+              >
+                {member.position}
+              </TeamMember>
             ))}
           </div>
         </div>
@@ -185,20 +182,12 @@ export default function JugendfeuerwehrIndex() {
             </Typography>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <div className="grid grid-cols-1 gap-6 gap-y-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             {jugendwarte.map((wart, index) => (
-              <div key={wart.name + index} className="text-center">
-                <Image
-                  src={wart.image}
-                  alt={wart.name}
-                  className="mx-auto mb-2 h-36 w-36 rounded-full"
-                />
-                <Typography size="small" className="font-bold">
-                  {wart.name}
-                </Typography>
-                <Typography size="small">{wart.city}</Typography>
-                <Typography size="small">{wart.phoneNumber}</Typography>
-              </div>
+              <TeamMember key={wart.name} name={wart.name} image={wart.image}>
+                {wart.city} <br />
+                {wart.phoneNumber}
+              </TeamMember>
             ))}
           </div>
         </div>
