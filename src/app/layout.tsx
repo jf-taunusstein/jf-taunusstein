@@ -1,5 +1,4 @@
 import { Raleway } from "@next/font/google";
-import { Analytics } from "@vercel/analytics/react";
 
 import "../global.css";
 import { cn } from "../lib/utils";
@@ -36,7 +35,6 @@ export default async function RootLayout({
         <div className="relative mx-auto min-h-screen max-w-screen-xl overflow-hidden bg-white px-8 font-sans shadow-lg md:px-12">
           {children}
         </div>
-        <Analytics />
       </body>
     </html>
   );
