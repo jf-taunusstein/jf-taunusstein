@@ -199,10 +199,10 @@ export default function JugendfeuerwehrIndex() {
             <FooterSectionTitle>Kontakt</FooterSectionTitle>
             <p>
               Stadtjugendfeuerwehrwart <br />
-              Name Nachname <br />
-              Straße Hausnummer <br />
-              Postleitzahl Stadt <br />
-              Tel: Telefonnummer
+              Moritz Fentz <br />
+              Philipp-Reis-Straße 3b <br />
+              65232 Taunusstein <br />
+              Tel: 015256103366
             </p>
           </FooterSection>
 
