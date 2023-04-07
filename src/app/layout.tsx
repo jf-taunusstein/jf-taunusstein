@@ -1,5 +1,4 @@
 import { Raleway } from "@next/font/google";
-import type { AppProps } from "next/app";
 
 import "../global.css";
 import { cn } from "../lib/utils";
@@ -18,16 +17,25 @@ const ralewayBold = Raleway({
   variable: "--font-raleway-bold",
 });
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+export default async function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <main
+    <html
+      lang="de"
       className={cn(
         raleway.variable,
         ralewayBold.variable,
-        "relative mx-auto min-h-screen max-w-screen-xl overflow-hidden bg-white px-8 font-sans shadow-lg md:px-12"
+        "bg-gray-50 text-neutral-900 antialiased"
       )}
     >
-      <Component {...pageProps} />
-    </main>
+      <body>
+        <div className="relative mx-auto min-h-screen max-w-screen-xl overflow-hidden bg-white px-8 font-sans shadow-lg md:px-12">
+          {children}
+        </div>
+      </body>
+    </html>
   );
 }
