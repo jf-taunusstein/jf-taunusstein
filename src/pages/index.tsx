@@ -126,7 +126,7 @@ export default function JugendfeuerwehrIndex() {
 
       <SkewBackground
         direction="left"
-        className="my-14 bg-jugend p-12 pt-4 text-white after:bg-jugend"
+        className="my-14 space-y-12 bg-jugend p-12 pt-4 text-white after:bg-jugend"
       >
         <div className="space-y-4">
           <Typography component="h2" size="h1">
