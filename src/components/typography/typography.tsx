@@ -1,8 +1,8 @@
-import { cva } from "class-variance-authority";
-import type { VariantProps } from "class-variance-authority";
 import { PropsWithChildren } from "react";
+import type { VariantProps } from "tailwind-variants";
+import { tv } from "tailwind-variants";
 
-const classes = cva("", {
+const classes = tv({
   variants: {
     size: {
       h1: ["text-3xl font-sansBold", "md:text-4xl", "lg:text-5xl"],
@@ -10,7 +10,6 @@ const classes = cva("", {
       small: ["leading-relaxed text-md", "lg:text-base"],
     },
   },
-
   defaultVariants: {
     size: "base",
   },
