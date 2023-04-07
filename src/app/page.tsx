@@ -98,7 +98,7 @@ export default function JugendfeuerwehrIndex() {
             das richtige für dich. Komm doch einfach mal bei uns vorbei! Unsere
             Übungszeiten und Ansprechpartner findest du gleich hier unten.
           </Typography>
-          <Typography size="small">
+          <Typography>
             Du würdest gerne mitmachen bist aber noch zu jung oder schon zu alt?
           </Typography>
 
@@ -131,73 +131,69 @@ export default function JugendfeuerwehrIndex() {
 
       <SkewBackground
         direction="left"
-        className="my-14 space-y-12 bg-jugend p-12 pt-4 text-white after:bg-jugend"
+        className="my-20 space-y-12 bg-jugend pb-16 pt-6 text-white after:bg-jugend"
       >
         <div className="space-y-2">
           <Typography component="h2" size="h1">
             Übungszeiten
           </Typography>
-          <Typography>
+          <Typography component="h3" size="h3">
             Eure Übungszeiten in den jeweiligen Stadtteilen
           </Typography>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 md:gap-y-14 lg:grid-cols-4">
           {uebungszeiten.map((uebung) => (
             <div key={uebung.city}>
-              <Typography size="small" className="font-bold">
-                {uebung.city}
-              </Typography>
+              <Typography className="font-bold">{uebung.city}</Typography>
               <Typography size="small">{uebung.time}</Typography>
             </div>
           ))}
         </div>
       </SkewBackground>
 
-      <div className="space-y-16">
-        <div className="space-y-10">
-          <div className="space-y-2">
-            <Typography component="h2" size="h1" className="text-jugend">
-              Das Team
-            </Typography>
-            <Typography>Unsere Stadtjugendfeuerwehr</Typography>
-          </div>
-
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-            {team.map((member) => (
-              <TeamMember
-                key={member.name}
-                name={member.name}
-                image={member.image}
-              >
-                {member.position}
-              </TeamMember>
-            ))}
-          </div>
+      <div className="space-y-20">
+        <div className="space-y-2">
+          <Typography component="h2" size="h1" className="text-jugend">
+            Das Team
+          </Typography>
+          <Typography component="h3" size="h3">
+            Unsere Stadtjugendfeuerwehr
+          </Typography>
         </div>
 
-        <div className="space-y-10">
-          <div className="space-y-2">
-            <Typography component="h2" size="h2" className="text-jugend">
-              Die Jugendwarte
-            </Typography>
-            <Typography>
-              Eure Ansprechpartner in den jeweiligen Stadtteilen
-            </Typography>
-          </div>
+        <div className="grid grid-cols-1 gap-6 gap-y-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          {team.map((member) => (
+            <TeamMember
+              key={member.name}
+              name={member.name}
+              image={member.image}
+            >
+              {member.position}
+            </TeamMember>
+          ))}
+        </div>
 
-          <div className="grid grid-cols-1 gap-6 gap-y-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-            {jugendwarte.map((wart, index) => (
-              <TeamMember key={wart.name} name={wart.name} image={wart.image}>
-                {wart.city} <br />
-                {wart.phoneNumber}
-              </TeamMember>
-            ))}
-          </div>
+        <div className="space-y-2">
+          <Typography component="h2" size="h2" className="text-jugend">
+            Die Jugendwarte
+          </Typography>
+          <Typography component="h3" size="h3">
+            Eure Ansprechpartner in den jeweiligen Stadtteilen
+          </Typography>
+        </div>
+
+        <div className="grid grid-cols-1 gap-6 gap-y-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          {jugendwarte.map((wart) => (
+            <TeamMember key={wart.name} name={wart.name} image={wart.image}>
+              {wart.city} <br />
+              {wart.phoneNumber}
+            </TeamMember>
+          ))}
         </div>
       </div>
 
-      <SkewBackground className="mt-20 bg-jugend text-white after:bg-jugend">
+      <SkewBackground className="mt-24 bg-jugend text-white after:bg-jugend">
         <Footer>
           <FooterSection>
             <FooterSectionTitle>Kontakt</FooterSectionTitle>
