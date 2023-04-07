@@ -1,5 +1,6 @@
-import { clsx } from "clsx";
 import { PropsWithChildren, ReactNode } from "react";
+
+import { cn } from "~/src/lib/utils";
 
 interface SplitProps {
   image: ReactNode;
@@ -16,16 +17,16 @@ export const Split = ({
 
   return (
     <div
-      className={clsx(
+      className={cn(
         "relative flex flex-col space-y-8 md:flex-row md:space-y-0",
         {
           "text-right md:flex-row-reverse": direction === "rtl",
         }
       )}
     >
-      <div className={clsx(gridItemClasses)}>{children}</div>
+      <div className={cn(gridItemClasses)}>{children}</div>
       <div
-        className={clsx(gridItemClasses, {
+        className={cn(gridItemClasses, {
           "-right-8 items-end md:-right-12": direction === "ltr",
           "-left-8 items-start md:-left-12": direction === "rtl",
         })}
