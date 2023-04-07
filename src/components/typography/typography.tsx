@@ -6,6 +6,7 @@ const classes = tv({
   variants: {
     size: {
       h1: ["text-3xl font-sansBold", "md:text-4xl", "lg:text-5xl"],
+      h2: ["text-2xl font-sansBold", "md:text-3xl", "lg:text-4xl"],
       base: ["leading-relaxed text-base", "lg:text-lg"],
       small: ["leading-relaxed text-md", "lg:text-base"],
     },
