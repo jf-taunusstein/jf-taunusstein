@@ -11,7 +11,7 @@ export const LinkBox = ({
   return (
     <a
       href={href}
-      className="bg-gray-100 group flex flex-col items-center justify-center p-4 space-y-4"
+      className="group flex flex-col items-center justify-center space-y-4 bg-gray-100 p-4"
     >
       {children}
     </a>

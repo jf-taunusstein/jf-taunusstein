@@ -92,14 +92,14 @@ export default function JugendfeuerwehrIndex() {
           </Typography>
 
           {/* TODO: Add link to minifeuerwehr */}
-          <div className="gap-4 flex flex-col sm:flex-row sm:justify-end text-center">
+          <div className="flex flex-col gap-4 text-center sm:flex-row sm:justify-end">
             <LinkBox href="#">
               <p>
                 Du bist zwischen <strong>6 und 9</strong> Jahre alt?
               </p>
 
-              <p className="text-jugend font-bold inline-flex items-center space-x-2">
-                <ArrowRight className="w-4 h-4 group-hover:text-red-500 transition-colors" />
+              <p className="inline-flex items-center space-x-2 font-bold text-jugend">
+                <ArrowRight className="h-4 w-4 transition-colors group-hover:text-red-500" />
                 <span>Zur Minifeuerwehr</span>
               </p>
             </LinkBox>
@@ -109,8 +109,8 @@ export default function JugendfeuerwehrIndex() {
                 Du bist schon <strong>über 17</strong> Jahre alt?
               </p>
 
-              <p className="text-jugend font-bold inline-flex items-center space-x-2">
-                <ArrowRight className="w-4 h-4 group-hover:text-red-500 transition-colors" />
+              <p className="inline-flex items-center space-x-2 font-bold text-jugend">
+                <ArrowRight className="h-4 w-4 transition-colors group-hover:text-red-500" />
                 <span>Zur Einsatzabteilung</span>
               </p>
             </LinkBox>
@@ -118,7 +118,7 @@ export default function JugendfeuerwehrIndex() {
         </Split>
       </div>
 
-      <div className="bg-jugend my-14 text-white z-[1] -mx-12 p-12 pt-4 space-y-8 relative after:-z-[1] after:h-full after:w-[110%] after:bg-jugend after:absolute after:-inset-1 after:-top-4 after:skew-y-[1.5deg]">
+      <div className="relative z-[1] my-14 -mx-12 space-y-8 bg-jugend p-12 pt-4 text-white after:absolute after:-inset-1 after:-top-4 after:-z-[1] after:h-full after:w-[110%] after:skew-y-[1.5deg] after:bg-jugend">
         <div className="space-y-4">
           <Typography component="h2" size="h1">
             Übungszeiten
@@ -155,7 +155,7 @@ export default function JugendfeuerwehrIndex() {
                 <Image
                   src={member.image}
                   alt={member.name}
-                  className="rounded-full w-36 h-36 mx-auto mb-2"
+                  className="mx-auto mb-2 h-36 w-36 rounded-full"
                 />
                 <Typography size="small" className="font-bold">
                   {member.name}
@@ -182,7 +182,7 @@ export default function JugendfeuerwehrIndex() {
                 <Image
                   src={wart.image}
                   alt={wart.name}
-                  className="rounded-full w-36 h-36 mx-auto mb-2"
+                  className="mx-auto mb-2 h-36 w-36 rounded-full"
                 />
                 <Typography size="small" className="font-bold">
                   {wart.name}
@@ -195,9 +195,9 @@ export default function JugendfeuerwehrIndex() {
         </div>
       </div>
 
-      <div className="bg-jugend mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 text-white z-[1] -mx-12 p-12 relative after:-z-[1] after:h-full after:w-[110%] after:bg-jugend after:absolute after:-inset-1 after:-top-5 after:-skew-y-[1.5deg]">
+      <div className="relative z-[1] -mx-12 mt-14 grid grid-cols-1 gap-6 bg-jugend p-12 text-white after:absolute after:-inset-1 after:-top-5 after:-z-[1] after:h-full after:w-[110%] after:-skew-y-[1.5deg] after:bg-jugend sm:grid-cols-2 md:grid-cols-3">
         <div className="space-y-4">
-          <Typography className="uppercase font-bold" size="small">
+          <Typography className="font-bold uppercase" size="small">
             Kontakt
           </Typography>
           <p>
@@ -210,13 +210,13 @@ export default function JugendfeuerwehrIndex() {
         </div>
 
         <div className="space-y-4">
-          <Typography className="uppercase font-bold" size="small">
+          <Typography className="font-bold uppercase" size="small">
             Folge uns
           </Typography>
         </div>
 
         <div className="space-y-4">
-          <Typography className="uppercase font-bold" size="small">
+          <Typography className="font-bold uppercase" size="small">
             Informationen
           </Typography>
           <ul className="space-y-2">

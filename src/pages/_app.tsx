@@ -24,7 +24,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       className={clsx(
         raleway.variable,
         ralewayBold.variable,
-        "bg-white font-sans min-h-screen mx-auto max-w-screen-xl shadow-lg overflow-hidden relative px-8 md:px-12"
+        "relative mx-auto min-h-screen max-w-screen-xl overflow-hidden bg-white px-8 font-sans shadow-lg md:px-12"
       )}
     >
       <Component {...pageProps} />

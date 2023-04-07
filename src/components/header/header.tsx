@@ -10,7 +10,7 @@ export const Header = ({
   children,
 }: PropsWithChildren<HeaderProps>) => {
   return (
-    <header className={clsx(className, "py-8 text-lg font-sansBold")}>
+    <header className={clsx(className, "py-8 font-sansBold text-lg")}>
       {children}
     </header>
   );

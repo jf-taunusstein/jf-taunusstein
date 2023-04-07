@@ -17,17 +17,17 @@ export const Split = ({
   return (
     <div
       className={clsx(
-        "relative flex flex-col md:flex-row space-y-8 md:space-y-0",
+        "relative flex flex-col space-y-8 md:flex-row md:space-y-0",
         {
-          "md:flex-row-reverse text-right": direction === "rtl",
+          "text-right md:flex-row-reverse": direction === "rtl",
         }
       )}
     >
       <div className={clsx(gridItemClasses)}>{children}</div>
       <div
         className={clsx(gridItemClasses, {
-          "items-end -right-8 md:-right-12": direction === "ltr",
-          "items-start -left-8 md:-left-12": direction === "rtl",
+          "-right-8 items-end md:-right-12": direction === "ltr",
+          "-left-8 items-start md:-left-12": direction === "rtl",
         })}
       >
         {image}
