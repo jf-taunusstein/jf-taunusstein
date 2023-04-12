@@ -1,25 +1,18 @@
-import { ArrowRight, Facebook, Instagram } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 
 import feuerBlob from "~/public/images/feuer-blob.png";
 import onFireBlob from "~/public/images/on-fire-blob.png";
 import teamBlob from "~/public/images/team-blob.png";
-import { Header } from "~/src/components/header/header";
 import { Split } from "~/src/components/split/split";
 import { Typography } from "~/src/components/typography/typography";
 
-import {
-  Footer,
-  FooterSection,
-  FooterSectionTitle,
-} from "../components/footer/footer";
-import { LinkBox } from "../components/link-box/link-box";
-import { SkewBackground } from "../components/skew-background/skew-background";
-import { TeamMember } from "../components/team-member/team-member";
-import { jugendwarte } from "../data/jugendwarte";
-import { team } from "../data/team";
-import { uebungszeiten } from "../data/uebungszeiten";
+import { LinkBox } from "../../components/link-box/link-box";
+import { SkewBackground } from "../../components/skew-background/skew-background";
+import { TeamMember } from "../../components/team-member/team-member";
+import { jugendwarte } from "../../data/jugendwarte";
+import { team } from "../../data/team";
+import { uebungszeiten } from "../../data/uebungszeiten";
 
 export const metadata = {
   title: "Jugendfeuerwehr | Stadtjugendfeuerwehr Taunusstein",
@@ -28,7 +21,6 @@ export const metadata = {
 export default function JugendfeuerwehrIndex() {
   return (
     <>
-      <Header className="text-jugend">Jugendfeuerwehr Taunusstein</Header>
       <div className="space-y-8">
         <Split
           image={<Image src={teamBlob} alt="Unser Team" priority={true} />}
@@ -50,7 +42,7 @@ export default function JugendfeuerwehrIndex() {
 
         <Split
           image={
-            <Image src={onFireBlob} alt="Feuer und FLamme bei der Ausbildung" />
+            <Image src={onFireBlob} alt="Feuer und Flamme bei der Ausbildung" />
           }
           direction="rtl"
         >
@@ -192,53 +184,6 @@ export default function JugendfeuerwehrIndex() {
           ))}
         </div>
       </div>
-
-      <SkewBackground className="mt-24 bg-jugend text-white after:bg-jugend">
-        <Footer>
-          <FooterSection>
-            <FooterSectionTitle>Kontakt</FooterSectionTitle>
-            <p>
-              Stadtjugendfeuerwehrwart <br />
-              Moritz Fentz <br />
-              Philipp-Reis-Straße 3b <br />
-              65232 Taunusstein <br />
-              Tel: 015256103366
-            </p>
-          </FooterSection>
-
-          <FooterSection>
-            <FooterSectionTitle>Folge uns</FooterSectionTitle>
-            <ul className="flex space-x-4">
-              <a
-                href="https://www.facebook.com/jftaunusstein"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Facebook className="h-6 w-6" />
-              </a>
-              <a
-                href="https://www.instagram.com/jugendfeuerwehrtaunusstein/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Instagram className="h-6 w-6" />
-              </a>
-            </ul>
-          </FooterSection>
-
-          <FooterSection>
-            <FooterSectionTitle>Informationen</FooterSectionTitle>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#">Impressum</Link>
-              </li>
-              <li>
-                <Link href="#">Datenschutz</Link>
-              </li>
-            </ul>
-          </FooterSection>
-        </Footer>
-      </SkewBackground>
     </>
   );
 }
