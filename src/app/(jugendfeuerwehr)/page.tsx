@@ -48,7 +48,7 @@ export default function JugendfeuerwehrIndex() {
         >
           <Typography component="h2" size="h1">
             <span className="text-jugend">Feuer und Flamme</span> bei der
-            feuerwehrtechnischen Ausbildung
+            feuerwehr&shy;technischen Ausbildung
           </Typography>
           <Typography>
             Egal ob Gebäudebrand oder Katze auf dem Baum. Bei wöchentlichen
