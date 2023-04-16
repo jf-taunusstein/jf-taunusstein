@@ -21,7 +21,7 @@ export const metadata = {
 export default function JugendfeuerwehrIndex() {
   return (
     <>
-      <div className="space-y-8">
+      <div className="space-y-8 lg:-space-y-8 xl:-space-y-12 2xl:-space-y-16">
         <Split
           image={<Image src={teamBlob} alt="Unser Team" priority={true} />}
         >
