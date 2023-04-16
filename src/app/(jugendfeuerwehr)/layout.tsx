@@ -15,11 +15,12 @@ export default async function JugendfeuerwehrLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div className="flex min-h-screen flex-col">
       <Header className="text-jugend">
         <Link href="/">Jugendfeuerwehr Taunusstein</Link>
       </Header>
       <div>{children}</div>
+      <div className="mt-auto" />
       <SkewBackground className="mt-24 bg-jugend text-white after:bg-jugend">
         <Footer>
           <FooterSection>
@@ -66,6 +67,6 @@ export default async function JugendfeuerwehrLayout({
           </FooterSection>
         </Footer>
       </SkewBackground>
-    </>
+    </div>
   );
 }
