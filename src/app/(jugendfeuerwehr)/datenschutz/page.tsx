@@ -95,11 +95,11 @@ export default function Datenschutz() {
         </p>{" "}
         <p>Wir setzen folgende(n) Hoster ein:</p>
         <p>
-          Musterhosting AG
+          Vercel Inc.
           <br />
-          Musterweg 100
+          440 N Barranca Ave #4133
           <br />
-          90210 Musterstadt
+          Covina, CA 91723
         </p>
         <h2>3. Allgemeine Hinweise und Pflicht&shy;informationen</h2>
         <h3>Datenschutz</h3>{" "}
@@ -129,16 +129,14 @@ export default function Datenschutz() {
           Website ist:
         </p>{" "}
         <p>
-          Beispielfirma
-          <br />
-          Musterweg 10
-          <br />
-          90210 Musterstadt
+          Moritz Fentz <br />
+          Philipp-Reis-Straße 3b <br />
+          65232 Taunusstein <br />
         </p>
         <p>
-          Telefon: +49 (0) 123 44 55 66
+          Telefon: +49 (0) 15256103366
           <br />
-          E-Mail: info@beispielfirma.de
+          E-Mail: mail@jf-taunusstein.de
         </p>
         <p>
           Verantwortliche Stelle ist die nat&uuml;rliche oder juristische
