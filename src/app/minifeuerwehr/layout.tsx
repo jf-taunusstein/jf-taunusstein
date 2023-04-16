@@ -16,7 +16,9 @@ export default async function JugendfeuerwehrLayout({
 }) {
   return (
     <>
-      <Header className="text-mini">Jugendfeuerwehr Taunusstein</Header>
+      <Header className="text-mini">
+        <Link href="/minifeuerwehr">Jugendfeuerwehr Taunusstein</Link>
+      </Header>
       <div>{children}</div>
       <SkewBackground className="mt-24 bg-mini text-white after:bg-mini">
         <Footer>
