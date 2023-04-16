@@ -1,6 +1,6 @@
-import MoritzFentz from "~/public/images/team/moritz-fentz.jpg";
-import JustusSchmitt from "~/public/images/team/justus-schmitt.jpg";
-import NiklasCapito from "~/public/images/team/niklas-capito.jpg";
+import JustusSchmitt from "~/public/images/jugendfeuerwehr/team/justus-schmitt.jpg";
+import MoritzFentz from "~/public/images/jugendfeuerwehr/team/moritz-fentz.jpg";
+import NiklasCapito from "~/public/images/jugendfeuerwehr/team/niklas-capito.jpg";
 
 export const team = [
   {

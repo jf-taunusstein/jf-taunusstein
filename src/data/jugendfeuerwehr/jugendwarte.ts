@@ -1,11 +1,11 @@
-import NeslihanHajiMirarab from "~/public/images/team/neslihan-haji-mirarab.jpg";
-import JulianZipp from "~/public/images/team/julian-zipp.jpg";
-import ManuelNiedlich from "~/public/images/team/manuel-niedlich.jpg";
-import KarinaMueller from "~/public/images/team/karina-mueller.jpg";
-import KirstenMittereder from "~/public/images/team/kirsten-mittereder.jpg";
-import SaschaEmsermann from "~/public/images/team/sascha-emsermann.jpg";
-import ThorstenFink from "~/public/images/team/thorsten-fink.jpg";
-import JanNiklasWagner from "~/public/images/team/jan-niklas-wagner.jpg";
+import JanNiklasWagner from "~/public/images/jugendfeuerwehr/team/jan-niklas-wagner.jpg";
+import JulianZipp from "~/public/images/jugendfeuerwehr/team/julian-zipp.jpg";
+import KarinaMueller from "~/public/images/jugendfeuerwehr/team/karina-mueller.jpg";
+import KirstenMittereder from "~/public/images/jugendfeuerwehr/team/kirsten-mittereder.jpg";
+import ManuelNiedlich from "~/public/images/jugendfeuerwehr/team/manuel-niedlich.jpg";
+import NeslihanHajiMirarab from "~/public/images/jugendfeuerwehr/team/neslihan-haji-mirarab.jpg";
+import SaschaEmsermann from "~/public/images/jugendfeuerwehr/team/sascha-emsermann.jpg";
+import ThorstenFink from "~/public/images/jugendfeuerwehr/team/thorsten-fink.jpg";
 
 export const jugendwarte = [
   {

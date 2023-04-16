@@ -1,18 +1,18 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
-import feuerBlob from "~/public/images/feuer-blob.png";
-import onFireBlob from "~/public/images/on-fire-blob.png";
-import teamBlob from "~/public/images/team-blob.png";
+import feuerBlob from "~/public/images/jugendfeuerwehr/feuer-blob.png";
+import onFireBlob from "~/public/images/jugendfeuerwehr/on-fire-blob.png";
+import teamBlob from "~/public/images/jugendfeuerwehr/team-blob.png";
 import { Split } from "~/src/components/split/split";
 import { Typography } from "~/src/components/typography/typography";
 
 import { LinkBox } from "../../components/link-box/link-box";
 import { SkewBackground } from "../../components/skew-background/skew-background";
 import { TeamMember } from "../../components/team-member/team-member";
-import { jugendwarte } from "../../data/jugendwarte";
-import { team } from "../../data/team";
-import { uebungszeiten } from "../../data/uebungszeiten";
+import { jugendwarte } from "../../data/jugendfeuerwehr/jugendwarte";
+import { team } from "../../data/jugendfeuerwehr/team";
+import { uebungszeiten } from "../../data/jugendfeuerwehr/uebungszeiten";
 
 export const metadata = {
   title: "Jugendfeuerwehr | Stadtjugendfeuerwehr Taunusstein",
@@ -78,7 +78,7 @@ export default function JugendfeuerwehrIndex() {
 
         <Split
           image={
-            <Image src={onFireBlob} alt="Feuer und FLamme bei der Ausbildung" />
+            <Image src={onFireBlob} alt="Feuer und Flamme bei der Ausbildung" />
           }
           direction="rtl"
         >
