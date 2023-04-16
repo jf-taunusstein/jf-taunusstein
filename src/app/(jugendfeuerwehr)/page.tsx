@@ -188,7 +188,12 @@ export default function JugendfeuerwehrIndex() {
           {jugendwarte.map((wart) => (
             <TeamMember key={wart.name} name={wart.name} image={wart.image}>
               {wart.city} <br />
-              {wart.phoneNumber}
+              <a
+                className="text-jugend hover:underline focus:underline focus:outline-none"
+                href={"tel:" + wart.phoneNumber.replace("/", "")}
+              >
+                {wart.phoneNumber}
+              </a>
             </TeamMember>
           ))}
         </div>

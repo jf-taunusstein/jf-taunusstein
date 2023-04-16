@@ -8,24 +8,24 @@ export const team = [
     image: AnitaHauboldSchäfer,
     name: "Anita Haubold-Schäfer",
     city: "Bleidenstadt",
-    phoneNumber: "01794813853",
+    phoneNumber: "0179/4813853",
   },
   {
     image: TobiasEmich,
     name: "Tobias Emich",
     city: "Hahn",
-    phoneNumber: "016095355969",
+    phoneNumber: "0160/95355969",
   },
   {
     image: ManuelNiedlich,
     name: "Manuel Niedlich",
     city: "Neuhof",
-    phoneNumber: "015208810350",
+    phoneNumber: "0152/08810350",
   },
   {
     image: PatriciaFelkel,
     name: "Patricia Felkel",
     city: "Wehen",
-    phoneNumber: "01773366697",
+    phoneNumber: "0177/3366697",
   },
 ];

@@ -30,7 +30,13 @@ export default async function JugendfeuerwehrLayout({
               Moritz Fentz <br />
               Philipp-Reis-Straße 3b <br />
               65232 Taunusstein <br />
-              Tel: 015256103366
+              Tel:{" "}
+              <a
+                href="tel:015256103366"
+                className="hover:underline focus:underline focus:outline-none"
+              >
+                0152/56103366
+              </a>
             </p>
           </FooterSection>
 
