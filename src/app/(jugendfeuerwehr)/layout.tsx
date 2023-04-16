@@ -41,6 +41,7 @@ export default async function JugendfeuerwehrLayout({
                 href="https://www.facebook.com/jftaunusstein"
                 target="_blank"
                 rel="noreferrer"
+                className="-mt-2 rounded p-2 transition hover:bg-black/10 focus:bg-black/10 focus:outline-none"
               >
                 <Facebook className="h-6 w-6" />
               </a>
@@ -48,6 +49,7 @@ export default async function JugendfeuerwehrLayout({
                 href="https://www.instagram.com/jugendfeuerwehrtaunusstein/"
                 target="_blank"
                 rel="noreferrer"
+                className="-mt-2 rounded p-2 transition hover:bg-black/10 focus:bg-black/10 focus:outline-none"
               >
                 <Instagram className="h-6 w-6" />
               </a>
@@ -58,10 +60,20 @@ export default async function JugendfeuerwehrLayout({
             <FooterSectionTitle>Informationen</FooterSectionTitle>
             <ul className="space-y-2">
               <li>
-                <Link href="/impressum">Impressum</Link>
+                <Link
+                  href="/impressum"
+                  className="hover:underline focus:underline focus:outline-none"
+                >
+                  Impressum
+                </Link>
               </li>
               <li>
-                <Link href="/datenschutz">Datenschutz</Link>
+                <Link
+                  href="/datenschutz"
+                  className="hover:underline focus:underline focus:outline-none"
+                >
+                  Datenschutz
+                </Link>
               </li>
             </ul>
           </FooterSection>

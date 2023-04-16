@@ -75,13 +75,15 @@ export default function JugendfeuerwehrIndex() {
             Lagerfeuer.
           </Typography>
           {/* TODO: Add link to GAUDI-MAX */}
-          <a
-            href=""
-            className="inline-flex items-center space-x-2 font-bold text-jugend"
-          >
-            <Download className="h-4 w-4" />
-            <span>Zeltlagerzeitung 2022</span>
-          </a>
+          <p>
+            <a
+              href=""
+              className="group inline-flex items-center space-x-2 border-b-2 border-transparent font-bold text-jugend transition hover:border-jugend focus:border-jugend focus:outline-none"
+            >
+              <Download className="h-4 w-4 transition-colors group-hover:text-red-500 group-focus:text-red-500" />
+              <span>Zeltlagerzeitung 2022</span>
+            </a>
+          </p>
         </Split>
 
         <Split
@@ -109,7 +111,7 @@ export default function JugendfeuerwehrIndex() {
               </p>
 
               <p className="inline-flex items-center space-x-2 font-bold text-jugend">
-                <ArrowRight className="h-4 w-4 transition-colors group-hover:text-red-500" />
+                <ArrowRight className="h-4 w-4 transition-colors group-hover:text-red-500 group-focus:text-red-500" />
                 <span>Zur Minifeuerwehr</span>
               </p>
             </LinkBox>
@@ -120,7 +122,7 @@ export default function JugendfeuerwehrIndex() {
               </p>
 
               <p className="inline-flex items-center space-x-2 font-bold text-jugend">
-                <ArrowRight className="h-4 w-4 transition-colors group-hover:text-red-500" />
+                <ArrowRight className="h-4 w-4 transition-colors group-hover:text-red-500 group-focus:text-red-500" />
                 <span>Zur Einsatzabteilung</span>
               </p>
             </LinkBox>
