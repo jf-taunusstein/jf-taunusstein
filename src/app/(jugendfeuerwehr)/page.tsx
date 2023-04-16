@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 import Image from "next/image";
 
 import feuerBlob from "~/public/images/jugendfeuerwehr/feuer-blob.png";
@@ -74,6 +74,14 @@ export default function JugendfeuerwehrIndex() {
             Sommerferien mit Übernachtungen, Tagesausflügen und allabendlichem
             Lagerfeuer.
           </Typography>
+          {/* TODO: Add link to GAUDI-MAX */}
+          <a
+            href=""
+            className="inline-flex items-center space-x-2 font-bold text-jugend"
+          >
+            <Download className="h-4 w-4" />
+            <span>Zeltlagerzeitung 2022</span>
+          </a>
         </Split>
 
         <Split
