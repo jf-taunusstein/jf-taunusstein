@@ -67,7 +67,7 @@ export default async function JugendfeuerwehrLayout({
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/impressum"
+                  href="/minifeuerwehr/impressum"
                   className="hover:underline focus:underline focus:outline-none"
                 >
                   Impressum
@@ -75,7 +75,7 @@ export default async function JugendfeuerwehrLayout({
               </li>
               <li>
                 <Link
-                  href="/datenschutz"
+                  href="/minifeuerwehr/datenschutz"
                   className="hover:underline focus:underline focus:outline-none"
                 >
                   Datenschutz
