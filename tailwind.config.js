@@ -11,11 +11,10 @@ module.exports = {
       },
       colors: {
         jugend: "#5255B0",
-        mini: "#FFD600",
+        mini: "#FFCC15",
+        "on-mini": "#492A01",
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
+  plugins: [require("@tailwindcss/typography")],
 };

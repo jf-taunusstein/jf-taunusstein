@@ -62,7 +62,7 @@ export default function MinifeuerwehrIndex() {
 
       <SkewBackground
         direction="left"
-        className="my-20 space-y-16 bg-mini pb-16 pt-6 text-black after:bg-mini"
+        className="my-20 space-y-16 bg-mini pb-16 pt-6 text-on-mini after:bg-mini"
       >
         <div className="space-y-2">
           <Typography component="h2" size="h1">

@@ -21,7 +21,7 @@ export default async function JugendfeuerwehrLayout({
       </Header>
       <div>{children}</div>
       <div className="mt-auto" />
-      <SkewBackground className="mt-24 bg-mini text-white after:bg-mini">
+      <SkewBackground className="mt-24 bg-mini text-on-mini after:bg-mini">
         <Footer>
           <FooterSection>
             <FooterSectionTitle>Kontakt</FooterSectionTitle>
