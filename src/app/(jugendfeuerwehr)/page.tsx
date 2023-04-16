@@ -102,9 +102,8 @@ export default function JugendfeuerwehrIndex() {
             Du würdest gerne mitmachen bist aber noch zu jung oder schon zu alt?
           </Typography>
 
-          {/* TODO: Add link to minifeuerwehr */}
           <div className="flex flex-col gap-4 text-center sm:flex-row sm:justify-end">
-            <LinkBox href="#">
+            <LinkBox href="/minifeuerwehr">
               <p>
                 Du bist zwischen <strong>6 und 9</strong> Jahre alt?
               </p>
