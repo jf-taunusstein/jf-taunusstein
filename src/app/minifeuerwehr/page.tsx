@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import onFireBlob from "~/public/images/jugendfeuerwehr/on-fire-blob.png";
 import teamBlob from "~/public/images/jugendfeuerwehr/team-blob.png";
+import { Arrow } from "~/src/components/arrow/arrow";
 import { Split } from "~/src/components/split/split";
 import { Typography } from "~/src/components/typography/typography";
 
@@ -57,6 +58,7 @@ export default function MinifeuerwehrIndex() {
             Dann komm doch einfach mal bei uns vorbei! Unsere Ansprechpartner
             findest du gleich hier unten.
           </Typography>
+          <Arrow className="text-mini" />
         </Split>
       </div>
 
