@@ -25,11 +25,9 @@ export default function Impressum() {
 
         <h2>Redaktionell verantwortlich</h2>
         <p>
-          Beate Beispielhaft
-          <br />
-          Musterstra&szlig;e 110
-          <br />
-          90210 Musterstadt
+          Moritz Fentz <br />
+          Philipp-Reis-Stra&szlig;e 3b <br />
+          65232 Taunusstein
         </p>
 
         <p>
