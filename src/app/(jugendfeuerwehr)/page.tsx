@@ -74,14 +74,14 @@ export default function JugendfeuerwehrIndex() {
             Sommerferien mit Übernachtungen, Tagesausflügen und allabendlichem
             Lagerfeuer.
           </Typography>
-          {/* TODO: Add link to GAUDI-MAX */}
           <p>
             <a
-              href=""
+              href="/gaudimax.pdf"
+              download
               className="group inline-flex items-center space-x-2 border-b-2 border-transparent font-bold text-jugend transition hover:border-jugend focus:border-jugend focus:outline-none"
             >
               <Download className="h-4 w-4 transition-colors group-hover:text-red-500 group-focus:text-red-500" />
-              <span>Zeltlagerzeitung 2022</span>
+              <span>Zeltlagerzeitung 2022 (11 MB)</span>
             </a>
           </p>
         </Split>
