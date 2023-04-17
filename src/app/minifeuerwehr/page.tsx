@@ -40,8 +40,7 @@ export default function MinifeuerwehrIndex() {
             um 9 Uhr und Gruppe 2 um 11 Uhr. In Neuhof und Wehen treffen wir uns
             samstags um 10 Uhr. Hierbei ist es völlig egal, in welchem Stadtteil
             von Taunusstein Du wohnst. Noch ein Hinweis für Deine Eltern: die
-            Mitgliedschaft bei uns ist{" "}
-            <span className="text-mini">kostenlos</span>!
+            Mitgliedschaft bei uns ist <strong>kostenlos</strong>!
           </Typography>
         </Split>
 
@@ -114,7 +113,7 @@ export default function MinifeuerwehrIndex() {
             >
               {member.city} <br />
               <a
-                className="text-mini hover:underline focus:underline focus:outline-none"
+                className="hover:underline focus:underline focus:outline-none"
                 href={"tel:" + member.phoneNumber.replace("/", "")}
               >
                 {member.phoneNumber}
