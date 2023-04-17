@@ -76,7 +76,7 @@ export default function JugendfeuerwehrIndex() {
           </Typography>
           <p>
             <a
-              href="/gaudimax.pdf"
+              href="/downloads/gaudimax.pdf"
               download
               className="group inline-flex items-center space-x-2 border-b-2 border-transparent font-bold text-jugend transition hover:border-jugend focus:border-jugend focus:outline-none"
             >
