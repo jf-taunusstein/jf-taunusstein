@@ -2,6 +2,7 @@ import { ArrowRight, Download } from "lucide-react";
 import Image from "next/image";
 
 import feuerBlob from "~/public/images/jugendfeuerwehr/feuer-blob.png";
+import gefunktBlob from "~/public/images/jugendfeuerwehr/gefunkt-blob.png";
 import onFireBlob from "~/public/images/jugendfeuerwehr/on-fire-blob.png";
 import teamBlob from "~/public/images/jugendfeuerwehr/team-blob.png";
 import { Split } from "~/src/components/split/split";
@@ -22,9 +23,7 @@ export default function JugendfeuerwehrIndex() {
   return (
     <>
       <div className="space-y-8 lg:-space-y-8 xl:-space-y-12 2xl:-space-y-16">
-        <Split
-          image={<Image src={teamBlob} alt="Unser Team" priority={true} />}
-        >
+        <Split image={<Image src={teamBlob} alt="Ein Team" priority={true} />}>
           <Typography component="h1" size="h1">
             Willkommen bei der{" "}
             <span className="text-jugend">Jugendfeuerwehr Taunusstein!</span>
@@ -87,9 +86,7 @@ export default function JugendfeuerwehrIndex() {
         </Split>
 
         <Split
-          image={
-            <Image src={onFireBlob} alt="Feuer und Flamme bei der Ausbildung" />
-          }
+          image={<Image src={gefunktBlob} alt="Mitmachen" />}
           direction="rtl"
         >
           <Typography component="h2" size="h1">

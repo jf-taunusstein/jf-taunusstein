@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import onFireBlob from "~/public/images/jugendfeuerwehr/on-fire-blob.png";
-import teamBlob from "~/public/images/jugendfeuerwehr/team-blob.png";
+import feuerBlob from "~/public/images/minifeuerwehr/feuer-blob.png";
+import willkommenBlob from "~/public/images/minifeuerwehr/willkommen-blob.png";
 import { Arrow } from "~/src/components/arrow/arrow";
 import { Split } from "~/src/components/split/split";
 import { Typography } from "~/src/components/typography/typography";
@@ -20,7 +20,7 @@ export default function MinifeuerwehrIndex() {
     <>
       <div className="space-y-8 lg:-space-y-8 xl:-space-y-12 2xl:-space-y-16">
         <Split
-          image={<Image src={teamBlob} alt="Unser Team" priority={true} />}
+          image={<Image src={willkommenBlob} alt="Ein Team" priority={true} />}
         >
           <Typography component="h1" size="h1">
             Willkommen bei der{" "}
@@ -45,9 +45,7 @@ export default function MinifeuerwehrIndex() {
         </Split>
 
         <Split
-          image={
-            <Image src={onFireBlob} alt="Feuer und Flamme bei der Ausbildung" />
-          }
+          image={<Image src={feuerBlob} alt="Mitmachen" />}
           direction="rtl"
         >
           <Typography component="h2" size="h1">
