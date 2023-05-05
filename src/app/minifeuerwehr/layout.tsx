@@ -2,7 +2,7 @@ import { Facebook, Instagram } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "~/public/images/jugendfeuerwehr/logo.png";
+import logo from "~/public/images/minifeuerwehr/logo.png";
 import {
   Footer,
   FooterSection,
