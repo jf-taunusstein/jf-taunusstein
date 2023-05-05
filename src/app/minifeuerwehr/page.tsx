@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import feuerBlob from "~/public/images/minifeuerwehr/feuer-blob.png";
-import willkommenBlob from "~/public/images/minifeuerwehr/willkommen-blob.png";
+import feuerBlob from "~/public/images/minifeuerwehr/blobs/feuer-blob.png";
+import willkommenBlob from "~/public/images/minifeuerwehr/blobs/willkommen-blob.png";
 import { Arrow } from "~/src/components/arrow/arrow";
 import { Split } from "~/src/components/split/split";
 import { Typography } from "~/src/components/typography/typography";
@@ -72,7 +72,7 @@ export default function MinifeuerwehrIndex() {
           </Typography>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 md:gap-y-14 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 md:gap-y-14 lg:grid-cols-3">
           {uebungszeiten.map((uebung) => (
             <div key={uebung.city}>
               <Typography className="font-bold">{uebung.city}</Typography>

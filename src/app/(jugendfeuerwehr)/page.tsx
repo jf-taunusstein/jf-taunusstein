@@ -1,10 +1,10 @@
 import { ArrowRight, Download } from "lucide-react";
 import Image from "next/image";
 
-import feuerBlob from "~/public/images/jugendfeuerwehr/feuer-blob.png";
-import gefunktBlob from "~/public/images/jugendfeuerwehr/gefunkt-blob.png";
-import onFireBlob from "~/public/images/jugendfeuerwehr/on-fire-blob.png";
-import teamBlob from "~/public/images/jugendfeuerwehr/team-blob.png";
+import feuerBlob from "~/public/images/jugendfeuerwehr/blobs/feuer-blob.png";
+import gefunktBlob from "~/public/images/jugendfeuerwehr/blobs/gefunkt-blob.png";
+import onFireBlob from "~/public/images/jugendfeuerwehr/blobs/on-fire-blob.png";
+import teamBlob from "~/public/images/jugendfeuerwehr/blobs/team-blob.png";
 import { Split } from "~/src/components/split/split";
 import { Typography } from "~/src/components/typography/typography";
 
