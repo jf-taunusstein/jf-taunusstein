@@ -34,13 +34,14 @@ export default function MinifeuerwehrIndex() {
             die Feuerwehr.
           </Typography>
           <Typography>
-            Zurzeit gibt es sechs Gruppen die sich jeweils einmal im Monat für 1
-            ½ Stunden treffen. In Bleidenstadt (2 Gruppen) finden diese Treffen
-            dienstags um 16:30 Uhr statt. In Hahn trifft sich Gruppe 1 samstags
-            um 9 Uhr und Gruppe 2 um 11 Uhr. In Neuhof und Wehen treffen wir uns
-            samstags um 10 Uhr. Hierbei ist es völlig egal, in welchem Stadtteil
-            von Taunusstein Du wohnst. Noch ein Hinweis für Deine Eltern: die
-            Mitgliedschaft bei uns ist <strong>kostenlos</strong>!
+            Zurzeit gibt es sieben Gruppen die sich jeweils einmal im Monat für
+            1 ½ Stunden treffen. In Bleidenstadt (2 Gruppen) finden diese
+            Treffen dienstags um 16:30 Uhr statt. In Hahn trifft sich Gruppe 1
+            samstags um 9 Uhr und Gruppe 2 um 11 Uhr. In Niederlibbach trifft
+            sich die Gruppe samstags um 9 Uhr. In Neuhof und Wehen treffen wir
+            uns samstags um 10 Uhr. Hierbei ist es völlig egal, in welchem
+            Stadtteil von Taunusstein Du wohnst. Noch ein Hinweis für Deine
+            Eltern: die Mitgliedschaft bei uns ist <strong>kostenlos</strong>!
           </Typography>
         </Split>
 
