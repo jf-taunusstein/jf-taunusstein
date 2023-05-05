@@ -1,18 +1,18 @@
 import JanNiklasWagner from "~/public/images/jugendfeuerwehr/team/jan-niklas-wagner.jpg";
 import JulianZipp from "~/public/images/jugendfeuerwehr/team/julian-zipp.jpg";
 import KarinaMueller from "~/public/images/jugendfeuerwehr/team/karina-mueller.jpg";
-import KirstenMittereder from "~/public/images/jugendfeuerwehr/team/kirsten-mittereder.jpg";
+import KirstenMoehn from "~/public/images/jugendfeuerwehr/team/kirsten-moehn.jpg";
 import ManuelNiedlich from "~/public/images/jugendfeuerwehr/team/manuel-niedlich.jpg";
-import NeslihanHajiMirarab from "~/public/images/jugendfeuerwehr/team/neslihan-haji-mirarab.jpg";
 import SaschaEmsermann from "~/public/images/jugendfeuerwehr/team/sascha-emsermann.jpg";
+import SusanneEtz from "~/public/images/jugendfeuerwehr/team/susanne-etz.jpg";
 import ThorstenFink from "~/public/images/jugendfeuerwehr/team/thorsten-fink.jpg";
 
 export const jugendwarte = [
   {
-    image: NeslihanHajiMirarab,
-    name: "Neslihan Haji Mirarab",
+    image: SusanneEtz,
+    name: "Susanne Etz",
     city: "Bleidenstadt",
-    phoneNumber: "0176/64930598",
+    phoneNumber: "0157/73513587",
   },
   {
     image: JulianZipp,
@@ -33,8 +33,8 @@ export const jugendwarte = [
     phoneNumber: "0152/04765695",
   },
   {
-    image: KirstenMittereder,
-    name: "Kirsten Mittereder",
+    image: KirstenMoehn,
+    name: "Kirsten Möhn",
     city: "Orlen/Hambach",
     phoneNumber: "0160/98437354",
   },
