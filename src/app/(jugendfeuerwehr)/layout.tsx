@@ -1,6 +1,8 @@
 import { Facebook, Instagram } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
+import logo from "~/public/images/jugendfeuerwehr/logo.png";
 import {
   Footer,
   FooterSection,
@@ -17,7 +19,13 @@ export default async function JugendfeuerwehrLayout({
   return (
     <div className="flex min-h-screen flex-col">
       <Header className="text-jugend">
-        <Link href="/">Jugendfeuerwehr Taunusstein</Link>
+        <Link href="/">
+          <Image
+            src={logo}
+            alt="jugendfeuerwehr-logo"
+            className="h-14 w-auto"
+          />
+        </Link>
       </Header>
       <div>{children}</div>
       <div className="mt-auto" />
