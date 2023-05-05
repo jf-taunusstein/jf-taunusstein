@@ -1,4 +1,5 @@
 import AnitaHauboldSchäfer from "~/public/images/minifeuerwehr/team/anita-haubold-schaefer.jpg";
+import DanielMetzke from "~/public/images/minifeuerwehr/team/daniel-metzke.jpg";
 import ManuelNiedlich from "~/public/images/minifeuerwehr/team/manuel-niedlich.jpg";
 import PatriciaFelkel from "~/public/images/minifeuerwehr/team/patricia-felkel.jpg";
 import TobiasEmich from "~/public/images/minifeuerwehr/team/tobias-emich.jpg";
@@ -21,6 +22,12 @@ export const team = [
     name: "Manuel Niedlich",
     city: "Neuhof",
     phoneNumber: "0152/08810350",
+  },
+  {
+    image: DanielMetzke,
+    name: "Daniel Metzke",
+    city: "Niederlibbach",
+    phoneNumber: "0173/6024388",
   },
   {
     image: PatriciaFelkel,

@@ -26,7 +26,16 @@ export const uebungszeiten = [
     groups: [
       {
         name: undefined,
-        time: "Samstag 10:00 - 11:30 Uhr",
+        time: "Freitag 16:30 - 18:00 Uhr",
+      },
+    ],
+  },
+  {
+    city: "Niederlibbach",
+    groups: [
+      {
+        name: undefined,
+        time: "Samstag 9:00 - 10:30 Uhr",
       },
     ],
   },
