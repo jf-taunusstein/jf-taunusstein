@@ -1,8 +1,10 @@
+import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 import feuerBlob from "~/public/images/minifeuerwehr/blobs/feuer-blob.png";
 import willkommenBlob from "~/public/images/minifeuerwehr/blobs/willkommen-blob.png";
 import { Arrow } from "~/src/components/arrow/arrow";
+import { LinkBox } from "~/src/components/link-box/link-box";
 import { Split } from "~/src/components/split/split";
 import { Typography } from "~/src/components/typography/typography";
 
@@ -56,6 +58,18 @@ export default function MinifeuerwehrIndex() {
             Dann komm doch einfach mal bei uns vorbei! Unsere Ansprechpartner
             findest du gleich hier unten.
           </Typography>
+          <div className="flex flex-col gap-4 text-center sm:flex-row sm:justify-end">
+            <LinkBox href="/">
+              <p>
+                Du bist schon älter als <strong>9</strong> Jahre alt?
+              </p>
+
+              <p className="inline-flex items-center space-x-2 font-bold text-mini">
+                <ArrowRight className="h-4 w-4 transition-colors group-hover:text-red-500 group-focus:text-red-500" />
+                <span>Zur Jugendfeuerwehr</span>
+              </p>
+            </LinkBox>
+          </div>
           <Arrow className="text-mini" />
         </Split>
       </div>
