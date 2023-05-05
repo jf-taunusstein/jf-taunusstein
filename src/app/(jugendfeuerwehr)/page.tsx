@@ -35,7 +35,7 @@ export default function JugendfeuerwehrIndex() {
             Übungen, Spieleabenden und Ausflügen. Sie zeigen aber auch, dass sie
             in jungen Jahren bereit sind gesellschaftliche Verantwortung zu
             übernehmen. Genau das unterstützt die Jugendfeuerwehr Taunusstein in
-            acht Stadtteilen – selbstverständlich kostenlos!
+            acht Stadtteilen – selbstverständlich <strong>kostenlos</strong>!
           </Typography>
         </Split>
 
