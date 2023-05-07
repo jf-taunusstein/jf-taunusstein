@@ -1,4 +1,5 @@
 import { Facebook, Instagram } from "lucide-react";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,6 +11,18 @@ import {
 } from "~/src/components/footer/footer";
 import { Header } from "~/src/components/header/header";
 import { SkewBackground } from "~/src/components/skew-background/skew-background";
+
+export const metadata: Metadata = {
+  title: "Minifeuerwehr Taunusstein",
+  description: `
+  Du bist schon sechs Jahre alt und wohnst irgendwo in Taunusstein? Dann bist Du bei uns richtig. 
+  Wir sind die Minifeuerwehrgruppen der Taunussteiner Feuerwehren. Bei uns wird gespielt, gebastelt 
+  und natürlich auch einmal ein Ausflug gemacht. Und das tollste daran: bei uns dreht sich (fast) 
+  alles um die Feuerwehr. Zurzeit gibt es sechs Gruppen die sich jeweils einmal im Monat 
+  für 1 ½ Stunden treffen.
+  `,
+  keywords: ["Feuerwehr", "Minifeuerwehr", "Taunusstein"],
+};
 
 export default async function JugendfeuerwehrLayout({
   children,

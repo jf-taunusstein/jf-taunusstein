@@ -12,10 +12,6 @@ import { TeamMember } from "../../components/team-member/team-member";
 import { team } from "../../data/minifeuerwehr/team";
 import { uebungszeiten } from "../../data/minifeuerwehr/uebungszeiten";
 
-export const metadata = {
-  title: "Minifeuerwehr | Stadtjugendfeuerwehr Taunusstein",
-};
-
 export default function MinifeuerwehrIndex() {
   return (
     <>

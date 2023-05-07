@@ -1,8 +1,7 @@
 import { Privacy } from "~/src/components/privacy/privacy";
 
 export const metadata = {
-  title:
-    "Datenschutzerklärung - Jugendfeuerwehr | Stadtjugendfeuerwehr Taunusstein",
+  title: "Datenschutzerklärung | Jugendfeuerwehr Taunusstein",
 };
 
 export default function Datenschutz() {

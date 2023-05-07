@@ -1,7 +1,7 @@
 import { Imprint } from "~/src/components/imprint/imprint";
 
 export const metadata = {
-  title: "Impressum - Jugendfeuerwehr | Stadtjugendfeuerwehr Taunusstein",
+  title: "Impressum | Jugendfeuerwehr Taunusstein",
 };
 
 export default function Impressum() {

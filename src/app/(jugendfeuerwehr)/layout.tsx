@@ -1,4 +1,5 @@
 import { Facebook, Instagram } from "lucide-react";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,6 +11,17 @@ import {
 } from "~/src/components/footer/footer";
 import { Header } from "~/src/components/header/header";
 import { SkewBackground } from "~/src/components/skew-background/skew-background";
+
+export const metadata: Metadata = {
+  title: "Jugendfeuerwehr Taunusstein",
+  description: `
+  Die Jugendfeuerwehr Taunusstein ist der Zusammenschluss der neun selbstständig arbeitenden 
+  Jugendfeuerwehren innerhalb der Stadt Taunusstein. Hier werden auf überörtlicher Ebene 
+  gemeinsame Veranstaltungen wie ein alljährlich stattfindender Stadtwettbewerb, ein Zeltlager, 
+  Tagesausflüge, usw. geplant und durchgeführt.
+  `,
+  keywords: ["Feuerwehr", "Jugendfeuerwehr", "Taunusstein"],
+};
 
 export default async function JugendfeuerwehrLayout({
   children,

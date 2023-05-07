@@ -15,10 +15,6 @@ import { jugendwarte } from "../../data/jugendfeuerwehr/jugendwarte";
 import { team } from "../../data/jugendfeuerwehr/team";
 import { uebungszeiten } from "../../data/jugendfeuerwehr/uebungszeiten";
 
-export const metadata = {
-  title: "Jugendfeuerwehr | Stadtjugendfeuerwehr Taunusstein",
-};
-
 export default function JugendfeuerwehrIndex() {
   return (
     <>
