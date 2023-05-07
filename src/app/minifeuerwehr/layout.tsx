@@ -20,7 +20,11 @@ export default async function JugendfeuerwehrLayout({
     <div className="flex min-h-screen flex-col">
       <Header className="text-mini">
         <Link href="/minifeuerwehr">
-          <Image src={logo} alt="minifeuerwehr-logo" className="h-14 w-auto" />
+          <Image
+            src={logo}
+            alt="minifeuerwehr-logo"
+            className="h-10 w-auto md:h-14"
+          />
         </Link>
       </Header>
       <div>{children}</div>

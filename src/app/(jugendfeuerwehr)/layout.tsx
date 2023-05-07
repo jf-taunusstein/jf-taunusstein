@@ -23,7 +23,7 @@ export default async function JugendfeuerwehrLayout({
           <Image
             src={logo}
             alt="jugendfeuerwehr-logo"
-            className="h-14 w-auto"
+            className="h-10 w-auto md:h-14"
           />
         </Link>
       </Header>
