@@ -6,7 +6,7 @@ export const team = [
   {
     image: MoritzFentz,
     name: "Moritz Fentz",
-    position: "Stadtjugendfeuerwehrwart",
+    position: "Stadtjugendfeuer&shy;wehrwart",
   },
   {
     image: JustusSchmitt,

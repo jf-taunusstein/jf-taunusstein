@@ -167,7 +167,7 @@ export default function JugendfeuerwehrIndex() {
               name={member.name}
               image={member.image}
             >
-              {member.position}
+              <span dangerouslySetInnerHTML={{ __html: member.position }} />
             </TeamMember>
           ))}
         </div>
