@@ -4,7 +4,7 @@ import { Typography } from "../typography/typography";
 
 export const Footer = ({ children }: PropsWithChildren<{}>) => {
   return (
-    <footer className="grid grid-cols-1 gap-6 p-12 sm:grid-cols-2 md:grid-cols-3">
+    <footer className="grid grid-cols-1 gap-6 py-12 sm:grid-cols-2 md:grid-cols-3">
       {children}
     </footer>
   );
