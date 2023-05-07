@@ -55,8 +55,9 @@ export default function MinifeuerwehrIndex() {
             Hat es zwischen uns <span className="text-mini">gefunkt</span>?
           </Typography>
           <Typography>
-            Dann komm doch einfach mal bei uns vorbei! Unsere Ansprechpartner
-            findest du gleich hier unten.
+            Von <strong>6 bis 9</strong> Jahren ist die Minifeuerwehr genau das
+            richtige für dich. Komm doch einfach mal bei uns vorbei! Unsere
+            Ansprechpartner findest du gleich hier unten.
           </Typography>
           <div className="flex flex-col gap-4 text-center sm:flex-row sm:justify-end">
             <LinkBox href="/">
