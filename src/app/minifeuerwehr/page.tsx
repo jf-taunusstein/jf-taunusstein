@@ -86,8 +86,12 @@ export default function MinifeuerwehrIndex() {
           {uebungszeiten.map((uebung) => (
             <div key={uebung.city}>
               <Typography className="font-bold">{uebung.city}</Typography>
-              {uebung.groups.map((group) => (
-                <Typography size="small" className="mb-4" key={group.name}>
+              {uebung.groups.map((group, index) => (
+                <Typography
+                  size="small"
+                  className="mb-4"
+                  key={`${group.name}.${index}`}
+                >
                   {group.name && (
                     <>
                       {group.name}
