@@ -1,4 +1,4 @@
-import { Raleway } from "@next/font/google";
+import { Raleway } from "next/font/google";
 
 import { TailwindIndicator } from "../components/tw-indicator/tw-indicator";
 import "../global.css";
