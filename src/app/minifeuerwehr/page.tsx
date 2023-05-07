@@ -3,7 +3,6 @@ import Image from "next/image";
 
 import feuerBlob from "~/public/images/minifeuerwehr/blobs/feuer-blob.png";
 import willkommenBlob from "~/public/images/minifeuerwehr/blobs/willkommen-blob.png";
-import { Arrow } from "~/src/components/arrow/arrow";
 import { LinkBox } from "~/src/components/link-box/link-box";
 import { Split } from "~/src/components/split/split";
 import { Typography } from "~/src/components/typography/typography";
@@ -71,7 +70,6 @@ export default function MinifeuerwehrIndex() {
               </p>
             </LinkBox>
           </div>
-          <Arrow className="text-mini" />
         </Split>
       </div>
 
