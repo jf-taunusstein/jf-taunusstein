@@ -131,9 +131,14 @@ export default function JugendfeuerwehrIndex() {
           <Typography component="h2" size="h1">
             Übungszeiten
           </Typography>
-          <Typography component="h3" size="h3">
-            Eure Übungszeiten in den jeweiligen Stadtteilen
-          </Typography>
+          <div>
+            <Typography component="h3" size="h3">
+              Eure Übungszeiten in den jeweiligen Stadtteilen
+            </Typography>
+            <Typography size="small">
+              Treffpunkt ist in der Regel an dem jeweiligen Feuerwehrgerätehaus
+            </Typography>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 md:gap-y-14 lg:grid-cols-4">
