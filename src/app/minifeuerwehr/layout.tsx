@@ -58,6 +58,14 @@ export default async function JugendfeuerwehrLayout({
               >
                 0152/56103366
               </a>
+              <br />
+              E-Mail:{" "}
+              <a
+                href="mailto:stjfw@jf-taunusstein.de"
+                className="hover:underline focus:underline focus:outline-none"
+              >
+                stjfw@jf-taunusstein.de
+              </a>
             </p>
           </FooterSection>
 
