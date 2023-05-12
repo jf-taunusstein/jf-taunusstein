@@ -27,7 +27,7 @@
     "react-dom": "18.2.0",
     "tailwind-merge": "1.12.0",
     "tailwind-variants": "0.1.5",
-    "typescript": "4.9.5"
+    "typescript": "5.0.4"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.3",
