@@ -1,5 +1,4 @@
 import AnitaHauboldSchäfer from "~/public/images/minifeuerwehr/team/anita-haubold-schaefer.jpg";
-import DanielMetzke from "~/public/images/minifeuerwehr/team/daniel-metzke.jpg";
 import ManuelNiedlich from "~/public/images/minifeuerwehr/team/manuel-niedlich.jpg";
 import PatriciaFelkel from "~/public/images/minifeuerwehr/team/patricia-felkel.jpg";
 import TobiasEmich from "~/public/images/minifeuerwehr/team/tobias-emich.jpg";
@@ -24,10 +23,9 @@ export const team = [
     phoneNumber: "0152/08810350",
   },
   {
-    image: DanielMetzke,
-    name: "Daniel Metzke",
+    name: "Christin Rothfuß",
     city: "Niederlibbach",
-    phoneNumber: "0173/6024388",
+    phoneNumber: "0157/83592692",
   },
   {
     image: PatriciaFelkel,
