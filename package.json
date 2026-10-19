@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write --ignore-unknown"
   },
   "lint-staged": {
     "app/**/*.{js,ts,tsx}": [
@@ -34,11 +35,11 @@
     "@commitlint/config-conventional": "19.0.3",
     "@tailwindcss/postcss": "4.3.3",
     "@tailwindcss/typography": "0.5.20",
-    "@trivago/prettier-plugin-sort-imports": "4.3.0",
+    "@trivago/prettier-plugin-sort-imports": "6.0.2",
     "husky": "8.0.3",
     "lint-staged": "15.2.0",
     "postcss": "8.5.31",
-    "prettier": "3.1.1",
+    "prettier": "3.9.10",
     "prettier-plugin-tailwindcss": "0.8.1",
     "tailwindcss": "4.3.3"
   }
