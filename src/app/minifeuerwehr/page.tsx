@@ -131,7 +131,7 @@ export default function MinifeuerwehrIndex() {
             >
               {member.city} <br />
               <a
-                className="hover:underline focus:underline focus:outline-none"
+                className="hover:underline focus:underline focus:outline-hidden"
                 href={"tel:" + member.phoneNumber.replace("/", "")}
               >
                 {member.phoneNumber}

@@ -54,7 +54,7 @@ export default async function JugendfeuerwehrLayout({
               Tel:{" "}
               <a
                 href="tel:015252838514"
-                className="hover:underline focus:underline focus:outline-none"
+                className="hover:underline focus:underline focus:outline-hidden"
               >
                 0152/52838514
               </a>
@@ -62,7 +62,7 @@ export default async function JugendfeuerwehrLayout({
               E-Mail:{" "}
               <a
                 href="mailto:stjfw@jf-taunusstein.de"
-                className="hover:underline focus:underline focus:outline-none"
+                className="hover:underline focus:underline focus:outline-hidden"
               >
                 stjfw@jf-taunusstein.de
               </a>
@@ -76,7 +76,7 @@ export default async function JugendfeuerwehrLayout({
                 href="https://www.facebook.com/jftaunusstein"
                 target="_blank"
                 rel="noreferrer"
-                className="-mt-2 rounded p-2 transition hover:bg-black/10 focus:bg-black/10 focus:outline-none"
+                className="-mt-2 rounded-sm p-2 transition hover:bg-black/10 focus:bg-black/10 focus:outline-hidden"
               >
                 <Facebook className="h-6 w-6" />
               </a>
@@ -84,7 +84,7 @@ export default async function JugendfeuerwehrLayout({
                 href="https://www.instagram.com/jugendfeuerwehrtaunusstein/"
                 target="_blank"
                 rel="noreferrer"
-                className="-mt-2 rounded p-2 transition hover:bg-black/10 focus:bg-black/10 focus:outline-none"
+                className="-mt-2 rounded-sm p-2 transition hover:bg-black/10 focus:bg-black/10 focus:outline-hidden"
               >
                 <Instagram className="h-6 w-6" />
               </a>
@@ -97,7 +97,7 @@ export default async function JugendfeuerwehrLayout({
               <li>
                 <Link
                   href="/minifeuerwehr/impressum"
-                  className="hover:underline focus:underline focus:outline-none"
+                  className="hover:underline focus:underline focus:outline-hidden"
                 >
                   Impressum
                 </Link>
@@ -105,7 +105,7 @@ export default async function JugendfeuerwehrLayout({
               <li>
                 <Link
                   href="/minifeuerwehr/datenschutz"
-                  className="hover:underline focus:underline focus:outline-none"
+                  className="hover:underline focus:underline focus:outline-hidden"
                 >
                   Datenschutz
                 </Link>

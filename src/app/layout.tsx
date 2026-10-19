@@ -33,7 +33,7 @@ export default async function RootLayout({
       )}
     >
       <body>
-        <div className="relative mx-auto min-h-screen max-w-screen-xl overflow-hidden bg-white px-8 font-sans shadow-lg md:px-12">
+        <div className="relative mx-auto min-h-screen max-w-(--breakpoint-xl) overflow-hidden bg-white px-8 font-sans shadow-lg md:px-12">
           {children}
         </div>
 
