@@ -12,22 +12,22 @@ export const Imprint = ({ className }: ImprintProps) => {
       <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
       <p>
         Stadtjugendfeuerwehrwart <br />
-        Moritz Fentz <br />
-        Philipp-Reis-Stra&szlig;e 3b <br />
+        Tim Sobek <br />
+        Lessingstra&szlig;e 46 <br />
         65232 Taunusstein
       </p>
 
       <h2>Kontakt</h2>
       <p>
-        Telefon: +49 (0) 152 56103366
+        Telefon: +49 (0) 152 52838514
         <br />
         E-Mail: stjfw@jf-taunusstein.de
       </p>
 
       <h2>Redaktionell verantwortlich</h2>
       <p>
-        Moritz Fentz <br />
-        Philipp-Reis-Stra&szlig;e 3b <br />
+        Tim Sobek <br />
+        Lessingstra&szlig;e 46 <br />
         65232 Taunusstein
       </p>
 

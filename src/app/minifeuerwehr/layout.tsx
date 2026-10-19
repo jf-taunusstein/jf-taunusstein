@@ -48,15 +48,15 @@ export default async function JugendfeuerwehrLayout({
             <FooterSectionTitle>Kontakt</FooterSectionTitle>
             <p>
               Stadtjugendfeuerwehrwart <br />
-              Moritz Fentz <br />
-              Philipp-Reis-Straße 3b <br />
+              Tim Sobek <br />
+              Lessingstraße 46 <br />
               65232 Taunusstein <br />
               Tel:{" "}
               <a
-                href="tel:015256103366"
+                href="tel:015252838514"
                 className="hover:underline focus:underline focus:outline-none"
               >
-                0152/56103366
+                0152/52838514
               </a>
               <br />
               E-Mail:{" "}

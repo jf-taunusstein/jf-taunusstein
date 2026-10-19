@@ -129,12 +129,12 @@ export const Privacy = ({ className }: PrivacyProps) => {
         Website ist:
       </p>{" "}
       <p>
-        Moritz Fentz <br />
-        Philipp-Reis-Straße 3b <br />
+        Tim Sobek <br />
+        Lessingstraße 46 <br />
         65232 Taunusstein <br />
       </p>
       <p>
-        Telefon: +49 (0) 15256103366
+        Telefon: +49 (0) 15252838514
         <br />
         E-Mail: mail@jf-taunusstein.de
       </p>
