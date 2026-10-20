@@ -1,4 +1,3 @@
-import { Facebook, Instagram } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,6 +9,7 @@ import {
   FooterSectionTitle,
 } from "~/src/components/footer/footer";
 import { Header } from "~/src/components/header/header";
+import { Facebook, Instagram } from "~/src/components/icons";
 import { SkewBackground } from "~/src/components/skew-background/skew-background";
 
 export const metadata: Metadata = {
@@ -42,7 +42,7 @@ export default async function JugendfeuerwehrLayout({
       </Header>
       <div>{children}</div>
       <div className="mt-auto" />
-      <SkewBackground className="mt-24 bg-mini text-on-mini after:bg-mini">
+      <SkewBackground className="bg-mini text-on-mini after:bg-mini mt-24">
         <Footer>
           <FooterSection>
             <FooterSectionTitle>Kontakt</FooterSectionTitle>

@@ -1,4 +1,3 @@
-import { Facebook, Instagram } from "lucide-react";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -10,6 +9,7 @@ import {
   FooterSectionTitle,
 } from "~/src/components/footer/footer";
 import { Header } from "~/src/components/header/header";
+import { Facebook, Instagram } from "~/src/components/icons";
 import { SkewBackground } from "~/src/components/skew-background/skew-background";
 
 export const metadata: Metadata = {
@@ -41,7 +41,7 @@ export default async function JugendfeuerwehrLayout({
       </Header>
       <div>{children}</div>
       <div className="mt-auto" />
-      <SkewBackground className="mt-24 bg-jugend text-white after:bg-jugend">
+      <SkewBackground className="bg-jugend after:bg-jugend mt-24 text-white">
         <Footer>
           <FooterSection>
             <FooterSectionTitle>Kontakt</FooterSectionTitle>
@@ -78,6 +78,7 @@ export default async function JugendfeuerwehrLayout({
                 className="-mt-2 rounded-sm p-2 transition hover:bg-black/10 focus:bg-black/10 focus:outline-hidden"
               >
                 <Facebook className="h-6 w-6" />
+                {/* <Facebook className="h-6 w-6" /> */}
               </a>
               <a
                 href="https://www.instagram.com/jugendfeuerwehrtaunusstein/"
