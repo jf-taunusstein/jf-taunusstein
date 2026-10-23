@@ -16,7 +16,7 @@ export const FooterSection = ({ children }: PropsWithChildren<{}>) => {
 
 export const FooterSectionTitle = ({ children }: PropsWithChildren<{}>) => {
   return (
-    <Typography className="font-bold uppercase" size="small">
+    <Typography className="font-semibold uppercase" size="small">
       {children}
     </Typography>
   );

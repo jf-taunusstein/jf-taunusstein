@@ -11,7 +11,7 @@ export const Header = ({
   children,
 }: PropsWithChildren<HeaderProps>) => {
   return (
-    <header className={cn(className, "py-8 font-sansBold text-lg")}>
+    <header className={cn(className, "py-8 text-lg font-semibold")}>
       {children}
     </header>
   );

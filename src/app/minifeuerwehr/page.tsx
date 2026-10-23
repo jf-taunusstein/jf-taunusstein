@@ -61,7 +61,7 @@ export default function MinifeuerwehrIndex() {
                 Du bist schon älter als <strong>9</strong> Jahre alt?
               </p>
 
-              <p className="inline-flex items-center space-x-2 font-bold text-mini">
+              <p className="text-mini inline-flex items-center space-x-2 font-semibold">
                 <ArrowRight className="h-4 w-4 transition-colors group-hover:text-red-500 group-focus:text-red-500" />
                 <span>Zur Jugendfeuerwehr</span>
               </p>
@@ -72,7 +72,7 @@ export default function MinifeuerwehrIndex() {
 
       <SkewBackground
         direction="left"
-        className="my-20 space-y-16 bg-mini pb-16 pt-6 text-on-mini after:bg-mini"
+        className="bg-mini text-on-mini after:bg-mini my-20 space-y-16 pt-6 pb-16"
       >
         <div className="space-y-2">
           <Typography component="h2" size="h1">
@@ -91,7 +91,7 @@ export default function MinifeuerwehrIndex() {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 md:gap-y-14 lg:grid-cols-3">
           {uebungszeiten.map((uebung) => (
             <div key={uebung.city}>
-              <Typography className="font-bold">{uebung.city}</Typography>
+              <Typography className="font-semibold">{uebung.city}</Typography>
               {uebung.groups.map((group, index) => (
                 <Typography
                   size="small"

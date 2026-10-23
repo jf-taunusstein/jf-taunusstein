@@ -5,17 +5,9 @@ import "../global.css";
 import { cn } from "../lib/utils";
 
 const raleway = Raleway({
-  weight: "400",
   style: "normal",
   subsets: ["latin"],
   variable: "--font-raleway",
-});
-
-const ralewayBold = Raleway({
-  weight: "600",
-  style: "normal",
-  subsets: ["latin"],
-  variable: "--font-raleway-bold",
 });
 
 export default async function RootLayout({
@@ -28,8 +20,7 @@ export default async function RootLayout({
       lang="de"
       className={cn(
         raleway.variable,
-        ralewayBold.variable,
-        "bg-gray-50 text-neutral-900 antialiased"
+        "bg-gray-50 text-neutral-900 antialiased",
       )}
     >
       <body>

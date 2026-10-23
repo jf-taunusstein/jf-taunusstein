@@ -73,7 +73,7 @@ export default function JugendfeuerwehrIndex() {
             <a
               href="/downloads/gaudimax.pdf"
               download
-              className="group inline-flex items-center space-x-2 border-b-2 border-transparent font-bold text-jugend transition hover:border-jugend focus:border-jugend focus:outline-hidden"
+              className="group text-jugend hover:border-jugend focus:border-jugend inline-flex items-center space-x-2 border-b-2 border-transparent font-semibold transition focus:outline-hidden"
             >
               <Download className="h-4 w-4 transition-colors group-hover:text-red-500 group-focus:text-red-500" />
               <span>Zeltlagerzeitung 2024 (13 MB)</span>
@@ -103,7 +103,7 @@ export default function JugendfeuerwehrIndex() {
                 Du bist zwischen <strong>6 und 9</strong> Jahre alt?
               </p>
 
-              <p className="inline-flex items-center space-x-2 font-bold text-jugend">
+              <p className="text-jugend inline-flex items-center space-x-2 font-semibold">
                 <ArrowRight className="h-4 w-4 transition-colors group-hover:text-red-500 group-focus:text-red-500" />
                 <span>Zur Minifeuerwehr</span>
               </p>
@@ -114,7 +114,7 @@ export default function JugendfeuerwehrIndex() {
                 Du bist schon <strong>über 17</strong> Jahre alt?
               </p>
 
-              <p className="inline-flex items-center space-x-2 font-bold text-jugend">
+              <p className="text-jugend inline-flex items-center space-x-2 font-semibold">
                 <ArrowRight className="h-4 w-4 transition-colors group-hover:text-red-500 group-focus:text-red-500" />
                 <span>Zur Einsatzabteilung</span>
               </p>
@@ -125,7 +125,7 @@ export default function JugendfeuerwehrIndex() {
 
       <SkewBackground
         direction="left"
-        className="my-20 space-y-16 bg-jugend pb-16 pt-6 text-white after:bg-jugend"
+        className="bg-jugend after:bg-jugend my-20 space-y-16 pt-6 pb-16 text-white"
       >
         <div className="space-y-2">
           <Typography component="h2" size="h1">
@@ -144,7 +144,7 @@ export default function JugendfeuerwehrIndex() {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 md:gap-y-14 lg:grid-cols-4">
           {uebungszeiten.map((uebung) => (
             <div key={uebung.city}>
-              <Typography className="font-bold">{uebung.city}</Typography>
+              <Typography className="font-semibold">{uebung.city}</Typography>
               <Typography size="small">{uebung.time}</Typography>
             </div>
           ))}

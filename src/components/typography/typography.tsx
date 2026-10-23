@@ -5,8 +5,8 @@ import { tv } from "tailwind-variants";
 const classes = tv({
   variants: {
     size: {
-      h1: ["text-3xl font-sansBold", "md:text-4xl", "lg:text-5xl"],
-      h2: ["text-2xl font-sansBold", "md:text-3xl", "lg:text-4xl"],
+      h1: ["text-3xl font-semibold", "md:text-4xl", "lg:text-5xl"],
+      h2: ["text-2xl font-semibold", "md:text-3xl", "lg:text-4xl"],
       h3: ["text-xl", "lg:text-2xl"],
       base: ["leading-relaxed text-base", "lg:text-lg"],
       small: ["leading-relaxed text-md", "lg:text-base"],
